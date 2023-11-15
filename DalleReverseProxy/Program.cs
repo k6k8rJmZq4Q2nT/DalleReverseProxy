@@ -22,8 +22,6 @@ namespace DalleReverseProxy
                 app.UseSwaggerUI();
             }
 
-            app.UseHttpsRedirection();
-
             app.UseAuthorization();
 
 

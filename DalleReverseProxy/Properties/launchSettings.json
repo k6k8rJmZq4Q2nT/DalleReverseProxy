@@ -30,13 +30,13 @@
       },
       "Docker": {
         "commandName": "Docker",
-        "launchBrowser": true,
+        "launchBrowser": false,
         "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/swagger",
         "environmentVariables": {
           "ASPNETCORE_URLS": "https://+:7860"
         },
         "publishAllPorts": true,
-        "useSSL": true
+        "useSSL": false
       }
     },
     "IIS Express": {
