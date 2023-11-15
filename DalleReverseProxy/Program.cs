@@ -1,4 +1,3 @@
-
 namespace DalleReverseProxy
 {
     public class Program
